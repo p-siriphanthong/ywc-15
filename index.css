@@ -1,0 +1,29 @@
+html, body {
+	font-family: 'Kanit', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+.page {
+	width: 100%;
+	min-height: 100%;
+	display: table;
+}
+
+.page-content {
+	padding: 30px;
+	text-align:center;
+	vertical-align: middle;
+	display: table-cell;
+    position: relative;
+    top: -3vh;
+}
+
+.search-page {
+	color: white;
+	background-color: SteelBlue;
+}
+
+.search-page img {
+	max-width: 90%;
+}
