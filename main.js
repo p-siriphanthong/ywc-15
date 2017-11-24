@@ -2,6 +2,7 @@ init();
 
 function init() {
 	load_data();
+	smooth_scrolling();
 }
 
 function load_data() {
@@ -13,5 +14,41 @@ function load_data() {
 
 function load_data_finished(msg) {
 	obj = jQuery.parseJSON(msg);
-	console.log(obj);
+
+	$.each(obj, function(key, value) {
+		insert_tab(key);
+		insert_data(key, value);
+	});
+
+	$('#nav-tabs li').first().addClass('active');
+	$('#tab-content ul').first().addClass('active');
+}
+
+function insert_tab(tab) {
+	$('#nav-tabs').append('<li role="presentation"><a href="#' + tab + '" aria-controls="' + tab + '" role="tab" data-toggle="tab">' + tab + '</a></li>');
+}
+
+function insert_data(major, data) {
+	text = '<ul id="' + major + '"class="tab-pane" role="tabpanel">';
+	$.each(data, function(index, value) {
+		text += '<li class="row"><div class="col-xs-2 interviewRef">' + value.interviewRef + '</div>';
+		text += '<div class="col-xs-10"><span class="firstname">' + value.firstName + '</span>' + value.lastName + '</div></li>';
+	});
+	text += '</ul>';
+
+	$('#tab-content').append(text);
+}
+
+function smooth_scrolling() {
+	$(".menu li a").on('click', function(event) {
+    	if (this.hash !== "") {
+      		event.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function(){
+				window.location.hash = hash;
+			});
+    	}
+  	});
 }
