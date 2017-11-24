@@ -35,7 +35,7 @@ ul {
 }
 
 .page-content {
-	padding: 5%;
+	padding: 7%;
 	text-align:center;
 	vertical-align: middle;
 	display: table-cell;
@@ -47,8 +47,44 @@ ul {
 	background-color: SteelBlue;
 }
 
+.search-page .page-content {
+	top: -40px;
+}
+
 .search-page img {
 	max-width: 90%;
+}
+
+.search-page .awesomplete {
+	color: black;
+}
+
+.search-page .awesomplete .search-box {
+	font-size: 1.5em;
+	text-align: center;
+	border: 1px solid #aaa;
+  	border-radius: 5px;
+	width: 500px;
+	max-width: 100%;
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+
+.search-page .awesomplete ul {
+	top: 65px;
+	max-height: 150px;
+    overflow: auto;
+}
+
+.search-page .awesomplete li {
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.search-page .awesomplete li mark {
+	background-color: transparent;
+	font-weight: bold;
+	padding: 0;
 }
 
 .interviewee-page {
@@ -56,7 +92,6 @@ ul {
 }
 
 .interviewee-page .page-content {
-	top: 0;
 	vertical-align: top;
 }
 
@@ -64,8 +99,27 @@ ul {
 	display: inline-block;
 }
 
-.interviewee-page .nav-tabs a {
+.interviewee-page .nav-pills {
+	margin-bottom: 30px;
+}
+
+.interviewee-page .nav-pills li {
+	margin-right: 30px;
+}
+
+.interviewee-page .nav-pills li a {
+	color: white;
+	font-size: 1.5em;
 	text-transform: capitalize;
+	border: thin solid white;
+}
+
+.interviewee-page .nav-pills li.active a {
+	background-color: SteelBlue;
+}
+
+.interviewee-page .nav-pills li:not(.active) a:hover, .interviewee-page .nav-pills li:not(.active) a:focus {
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .interviewee-page .tab-pane {
@@ -79,7 +133,11 @@ ul {
 	font-size: 1.5em;
 	font-weight: 300;
 	text-align: left;
-	padding: 5px 2vw 0;
+	padding-top: 5px;
+}
+
+.interviewee-page .tab-pane li.focus {
+	color: SteelBlue;
 }
 
 .interviewee-page .tab-pane li .interviewRef {
@@ -88,4 +146,34 @@ ul {
 
 .interviewee-page .tab-pane li .firstname {
 	margin-right: 10px;
+}
+
+/* ~ Small devices: Tablets (≥768px & <992px) */
+@media screen and (max-width: 1200px) {
+	.interviewee-page .tab-pane {
+	    -moz-column-count: 2;
+	    -webkit-column-count: 2;
+	    column-count: 2;
+	}
+}
+
+/* ~ Extra small devices: Phone (<768px) */
+@media screen and (max-width: 800px) {
+	.menu {
+		visibility: hidden;
+	}
+
+	.interviewee-page .tab-pane {
+	    -moz-column-count: 1;
+	    -webkit-column-count: 1;
+	    column-count: 1;
+	}
+
+	.interviewee-page .nav-pills li {
+		margin-right: 10px;
+	}
+
+	.interviewee-page .nav-pills li a {
+		font-size: 1.3em;
+	}
 }
