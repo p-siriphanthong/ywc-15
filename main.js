@@ -41,7 +41,7 @@ function insert_data(major, data) {
 	text = '<ul id="' + major + '"class="tab-pane" role="tabpanel">';
 	$.each(data, function(index, value) {
 		text += '<li class="row"><div class="col-xs-2 interviewRef">' + value.interviewRef + '</div>';
-		text += ' <div class="col-xs-10"><span class="firstname">' + $.trim(value.firstName) + '</span> <span class="lastname">' + $.trim(value.lastName) + '</span></div></li>';
+		text += ' <div class="col-xs-10 fullname"><span class="firstname">' + $.trim(value.firstName) + '</span> <span class="lastname">' + $.trim(value.lastName) + '</span></div></li>';
 
 		list.push({ label: $.trim(value.firstName) + ' ' + $.trim(value.lastName), value: value.major });
 	});
