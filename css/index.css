@@ -18,6 +18,14 @@ ul {
     flex-wrap: wrap;
 }
 
+.input-box {
+	color: black;
+	border: 1px solid #aaa;
+	max-width: 100%;
+	padding: 5px 10px;
+	outline: none;
+}
+
 .menu {
 	width: fit-content;
 	left: auto;
@@ -76,11 +84,8 @@ ul {
 .search-page .awesomplete .search-box {
 	font-size: 1.5em;
 	text-align: center;
-	border: 1px solid #aaa;
-  	width: 500px;
-	max-width: 100%;
+	width: 500px;
 	margin-top: 20px;
-	padding: 5px 10px;
 }
 
 .search-page .awesomplete ul {
@@ -285,7 +290,7 @@ ul {
 
 .briefcase-page {
 	color: white;
-	background-color: #0c9e72;
+	background-color: #d68f02;
 }
 
 .briefcase-page .detail {
@@ -318,7 +323,7 @@ ul {
 
 .travel-page {
 	color: white;
-	background-color: #d68f02;
+	background-color: #0c9e72;
 }
 
 .travel-page .detail {
@@ -378,6 +383,40 @@ ul {
 
 .contact-page .link li a {
 	color: white;
+}
+
+.comment-page {
+	color: white;
+	background-color: #d66808;
+}
+
+.comment-page .comment-box {
+	font-size: 1.3em;
+	width: 400px;
+	margin-top: 20px;
+	position: relative;
+	left: 3px;
+}
+
+.comment-page .button {
+	font-size: 1.1em;
+	border-radius: 0;
+	height: 37.53px;
+	padding: 6px 30px;
+	position: relative;
+	top: -2px;
+	left: -3px;
+}
+
+.comment-page .button:focus {
+	outline: none;
+}
+
+.comment-page .cloud {
+	width: 100%;
+	max-width: 1000px;
+	height: 60vh;
+	margin: 30px auto 0;
 }
 
 @media screen and (max-width: 1450px) {

@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./libraries/awesomplete.css?ver=<?php echo filemtime('libraries/awesomplete.css'); ?>">
-	<link rel="stylesheet" href="./preloader.css?ver=<?php echo filemtime('preloader.css'); ?>">
-	<link rel="stylesheet" href="./index.css?ver=<?php echo filemtime('index.css'); ?>">
+	<link rel="stylesheet" href="./libraries/jqcloud.min.css?ver=<?php echo filemtime('libraries/jqcloud.min.css'); ?>">
+	<link rel="stylesheet" href="./css/preloader.css?ver=<?php echo filemtime('css/preloader.css'); ?>">
+	<link rel="stylesheet" href="./css/index.css?ver=<?php echo filemtime('css/index.css'); ?>">
 </head>
 <body data-spy="scroll" data-target=".menu">
 
@@ -29,6 +30,7 @@
     		<li><a id="menu-briefcase" href="#briefcase"><i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i></a></li>
     		<li><a id="menu-travel" href="#travel"><i class="fa fa-car" aria-hidden="true"></i></a></li>
     		<li><a id="menu-contact" href="#contact"><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i></a></li>
+    		<li><a id="menu-comment" href="#comment"><i class="glyphicon glyphicon-comment" aria-hidden="true"></i></a></li>
     	</ul>
 	</nav>
 
@@ -38,7 +40,7 @@
 			<img src="./images/logo.png?ver=<?php echo filemtime('images/logo.png'); ?>" alt="ywc logo">
 			<h1>ประกาศผู้มีสิทธิ์เข้าสัมภาษณ์</h1>
 			<h4>การสัมภาษณ์จะจัดขึ้นในวันที่ 26 พฤศจิกายน 2560 ณ อาคาร ซี.พี.ทาวเวอร์ 1 (สีลม)</h4>
-			<input id="search-box" class="search-box" placeholder="ค้นหารายชื่อผู้มีสิทธ์เข้าสัมภาษณ์">
+			<input id="search-box" class="input-box search-box" placeholder="ค้นหารายชื่อผู้มีสิทธ์เข้าสัมภาษณ์">
 		</div>
 	</div>
 
@@ -193,10 +195,24 @@
 		</div>
 	</div>
 
+	<!-- comment page -->
+	<div id="comment" class="page comment-page">
+		<div class="page-content">
+			<h1>อยากบอกอะไรเกี่ยวกับค่ายนี้ใช่มั้ย?</h1>
+			<form>
+				<input id="comment-box" class="input-box comment-box" placeholder="กรอกข้อความที่น้องๆ ต้องการจะบอก" maxlength="50">
+				<button type="submit" id="submit-button" class="btn btn-success button">ส่งเลย!</button>
+			</form>
+			<div id="cloud" class="cloud"></div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="./libraries/awesomplete.min.js?ver=<?php echo filemtime('libraries/awesomplete.min.js'); ?>"></script>
-	<script src="./main.js?ver=<?php echo filemtime('main.js'); ?>"></script>
-	<script src="./event.js?ver=<?php echo filemtime('event.js'); ?>"></script>
+	<script src="./libraries/jqcloud.min.js?ver=<?php echo filemtime('libraries/jqcloud.min.js'); ?>"></script>
+	<script src="./js/main.js?ver=<?php echo filemtime('js/main.js'); ?>"></script>
+	<script src="./js/event.js?ver=<?php echo filemtime('js/event.js'); ?>"></script>
+	<script src="./js/comment.js?ver=<?php echo filemtime('js/comment.js'); ?>"></script>
 </body>
 </html>

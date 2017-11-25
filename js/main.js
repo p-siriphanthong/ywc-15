@@ -9,7 +9,7 @@ function init() {
 
 function load_data() {
 	$.ajax({
-		url: 'load_data.php',
+		url: 'm/load_data.php',
 		success: load_data_finished
 	});
 }
