@@ -199,7 +199,7 @@
 	<div id="comment" class="page comment-page">
 		<div class="page-content">
 			<h1>อยากบอกอะไรเกี่ยวกับค่ายนี้ใช่มั้ย?</h1>
-			<form>
+			<form id="comment-form">
 				<input id="comment-box" class="input-box comment-box" placeholder="กรอกข้อความที่น้องๆ ต้องการจะบอก" maxlength="50">
 				<button type="submit" id="submit-button" class="btn btn-success button">ส่งเลย!</button>
 			</form>

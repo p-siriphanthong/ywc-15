@@ -34,7 +34,7 @@ function update_cloud() {
 	$('#cloud').jQCloud('update', comments);
 }
 
-$('#submit-button').on('click', function() {
+$('#comment-form').submit(function() {
 	if((text = $('#comment-box').val()) !== '') {
 		data = {};
 		data['comment'] = text;
@@ -47,4 +47,5 @@ $('#submit-button').on('click', function() {
 			success: load_comment
 		});
 	}
+ 	return false;
 });
