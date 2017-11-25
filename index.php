@@ -102,6 +102,42 @@
 		</div>
 	</div>
 
+	<!-- briefcase page -->
+	<div id="briefcase" class="page briefcase-page">
+		<div class="page-content">
+			<h1 class="topic">สิ่งที่ต้องเตรียมมาในวันสัมภาษณ์</h1>
+			<div class="detail">
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-10">
+						<p class="topic">บัตรประชาชน & บัตรนักศึกษา</p>
+						<p>บัตรประชาชนสำหรับการแลกบัตรเข้าอาคาร ซี.พี.ทาวเวอร์ 1 (สีลม) และ บัตรนักศึกษาสำหรับการลงทะเบียนสัมภาษณ์ กรุณาแต่งกายด้วยชุดนักศึกษา</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-10">
+						<p class="topic">การบ้านและสิ่งที่กรรมการสาขากำหนดไว้</p>
+						<p>กรุณาอ่านรายละเอียดการบ้านและสิ่งที่กรรมการให้เตรียมมาให้ครบถ้วน หากสาขาใดต้องใช้โน้ตบุ๊ค ควรชาร์ตแบตเตอรี่และเตรียมอินเทอร์เน็ตส่วนตัวมาให้พร้อม เนื่องจากสถานที่ไม่มีบริการอินเทอร์เน็ตให้ใช้</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="fa fa-file" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-10">
+						<p class="topic">Portfolio</p>
+						<p>สามารถนำมาประกอบการสัมภาษณ์ได้ สำหรับน้อง ๆ สาขาดีไซน์จะต้องนำ Portfolio มาด้วยทุกคน</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="./libraries/awesomplete.min.js?ver=<?php echo filemtime('libraries/awesomplete.min.js'); ?>"></script>

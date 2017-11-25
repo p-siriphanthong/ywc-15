@@ -211,6 +211,36 @@ ul {
 	list-style: disc;
 }
 
+.briefcase-page {
+	color: white;
+	background-color: #5f5f5f;
+}
+
+.briefcase-page .detail {
+	width: 60%;
+	margin: auto;
+}
+
+.briefcase-page .detail .row {
+	margin-bottom: 20px;
+}
+
+.briefcase-page .detail i {
+	font-size: 50px;
+}
+
+.briefcase-page .detail p {
+	font-size: 1.2em;
+	font-weight: 200;
+	text-align: left;
+}
+
+.briefcase-page .detail p.topic {
+	font-weight: 500;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
 @media screen and (max-width: 1450px) {
 	.interviewee-page .tab-pane {
 	    -moz-column-count: 3;
@@ -224,6 +254,10 @@ ul {
 	    -moz-column-count: 2;
 	    -webkit-column-count: 2;
 	    column-count: 2;
+	}
+
+	.briefcase-page .detail {
+		width: 80%;
 	}
 }
 
@@ -244,5 +278,9 @@ ul {
 
 	.interviewee-page .nav-pills li a {
 		font-size: 1.1em;
+	}
+
+	.briefcase-page .detail i {
+		font-size: 30px;
 	}
 }
