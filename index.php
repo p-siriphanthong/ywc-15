@@ -157,6 +157,24 @@
 		</div>
 	</div>
 
+	<!-- contact page -->
+	<div id="contact" class="page contact-page">
+		<div class="page-content">
+			<h1 class="topic">สอบถามเพิ่มเติมติดต่อ</h1>
+			<div class="detail">
+				<p><span>พี่เบ๊บ</span>&emsp; <span class="tel">064-174-7080</span></p>
+				<p><span>พี่ฟง</span>&emsp; <span class="tel">092-458-7067</span></p>
+				<p><span>พี่เบนซ์</span>&emsp; <span class="tel">085-666-7571</span></p>
+			</div>
+			<ul class="link">
+				<li><a href="https://fb.com/ywcth" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://twitter.com/ywcth" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/ywcth/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.youtube.com/user/ywcth" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="./libraries/awesomplete.min.js?ver=<?php echo filemtime('libraries/awesomplete.min.js'); ?>"></script>
