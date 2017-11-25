@@ -138,6 +138,25 @@
 		</div>
 	</div>
 
+	<!-- travel page -->
+	<div id="travel" class="page travel-page">
+		<div class="page-content">
+			<h1 class="topic">การเดินทางมาสัมภาษณ์</h1>
+			<div class="row detail">
+				<div class="col-md-6 detail-list">
+					<ol>
+						<li>ด้วยรถไฟฟ้า BTS สามารถลงสถานีศาลาแดง ณ ทางออกที่ 2</li>
+						<li>ด้วยรถไฟฟ้า MRT สามารถลงสถานีสีลม ณ ทางออกที่ 2 โดยเดินเรียบทางเท้าไปตามถนนสีลม</li>
+						<li>ด้วยรถประจำทาง สามารถขึ้นใช้บริการสาย 15, 77, 155, 504, 177, 76</li>
+					</ol>
+				</div>
+				<div class="col-md-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.5802705497262!2d100.53217364177942!3d13.727328977459369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f294839a5eb%3A0xa94b25193faedff1!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4i-C4tS7guJ7guLUu4LmB4Lil4LiZ4LiU4LmMIOC4iOC4s-C4geC4seC4lCAo4Lih4Lir4Liy4LiK4LiZKSDguK3guLLguITguLLguKMg4LiL4Li1LuC4nuC4tS4g4LiX4Liy4Lin4LmA4Lin4Lit4Lij4LmMIDEgKOC4quC4teC4peC4oSk!5e0!3m2!1sth!2sth!4v1511568687281" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="./libraries/awesomplete.min.js?ver=<?php echo filemtime('libraries/awesomplete.min.js'); ?>"></script>

@@ -242,6 +242,24 @@ ul {
 	margin-bottom: 0;
 }
 
+.travel-page {
+	color: white;
+	background-color: SteelBlue;
+}
+
+.travel-page .detail {
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: left;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.travel-page .detail .detail-list {
+	padding: 20px 20px 20px 0;
+}
+
 @media screen and (max-width: 1450px) {
 	.interviewee-page .tab-pane {
 	    -moz-column-count: 3;
@@ -259,6 +277,12 @@ ul {
 
 	.briefcase-page .detail {
 		width: 80%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.travel-page .detail .detail-list {
+		padding: 0 0 20px 0;
 	}
 }
 
