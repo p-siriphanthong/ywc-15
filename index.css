@@ -102,7 +102,7 @@ ul {
 
 .interviewee-page {
 	color: white;
-	background-color: #5f5f5f;
+	background-color: #444444;
 }
 
 .interviewee-page .page-content {
@@ -127,11 +127,39 @@ ul {
 	color: white;
 	font-size: 1.5em;
 	text-transform: capitalize;
-	border: thin solid white;
+	border: thin solid rgba(204, 204, 204, 0.5);
 }
 
-.interviewee-page .nav-pills li.active a {
-	background-color: SteelBlue;
+.interviewee-page .nav-pills li.active a.btn-content {
+	background-color: #337ab7;
+}
+
+.interviewee-page .nav-pills li.active a.btn-content:hover {
+	background-color: #286090;
+}
+
+.interviewee-page .nav-pills li.active a.btn-design {
+	background-color: #f0ad4e;
+}
+
+.interviewee-page .nav-pills li.active a.btn-design:hover {
+	background-color: #ec971f;
+}
+
+.interviewee-page .nav-pills li.active a.btn-marketing {
+	background-color: #d9534f;
+}
+
+.interviewee-page .nav-pills li.active a.btn-marketing:hover {
+	background-color: #c9302c;
+}
+
+.interviewee-page .nav-pills li.active a.btn-programming {
+	background-color: #5cb85c;
+}
+
+.interviewee-page .nav-pills li.active a.btn-programming:hover {
+	background-color: #449d44;
 }
 
 .interviewee-page .nav-pills li:not(.active) a:hover, .interviewee-page .nav-pills li:not(.active) a:focus {
@@ -157,7 +185,23 @@ ul {
 }
 
 .interviewee-page .tab-pane li.focus {
-	color: SteelBlue;
+	font-weight: 500;
+}
+
+.interviewee-page .tab-pane#content li.focus {
+	color: #53a5ed;
+}
+
+.interviewee-page .tab-pane#design li.focus {
+	color: #f2b257;
+}
+
+.interviewee-page .tab-pane#marketing li.focus {
+	color: #ff726d;
+}
+
+.interviewee-page .tab-pane#programming li.focus {
+	color: #75d675;
 }
 
 .interviewee-page .tab-pane li .interviewRef {
@@ -176,79 +220,105 @@ ul {
 
 .homework-page {
 	color: white;
-	background-color: SteelBlue;
+	background-color: #2d2d2d;
 }
 
 .homework-page .homework {
 	padding: 10px;
 }
 
-.homework-page .homework-content {
-	border: 2px solid white;
+.homework-page .homework-box {
+	border: 2.5px solid transparent;
 	border-radius: 10px;
 	height: 100%;
 	padding: 20px;
 }
 
-.homework-page .homework-content h2 {
+.homework-page .homework-box.homework-content {
+	background-color: #286090;
+	border-color: #337ab7;
+}
+
+.homework-page .homework-box.homework-design {
+	background-color: #ec971f;
+	border-color: #f0ad4e;
+}
+
+.homework-page .homework-box.homework-marketing {
+	background-color: #c9302c;
+	border-color: #d9534f;
+}
+
+.homework-page .homework-box.homework-programming {
+	background-color: #449d44;
+	border-color: #5cb85c;
+}
+
+.homework-page .homework-box h2 {
 	font-size: 1.5em;
 	margin-bottom: 0;
 }
 
-.homework-page .homework-content img {
+.homework-page .homework-box img {
 	width: 70%;
 	max-width: 223px;
 	margin-bottom: 10px;
 }
 
-.homework-page .homework-content .detail {
+.homework-page .homework-box .detail {
 	font-size: 1.2em;
 	font-weight: 200;
 	text-align: left;
 }
 
-.homework-page .homework-content .detail p {
+.homework-page .homework-box .detail p {
 	text-indent: 25px;
 }
 
-.homework-page .homework-content .detail ul {
+.homework-page .homework-box .detail strong {
+	font-weight: 400;
+}
+
+.homework-page .homework-box .detail ul {
 	list-style: disc;
 }
 
 .briefcase-page {
 	color: white;
-	background-color: #5f5f5f;
+	background-color: #0c9e72;
 }
 
 .briefcase-page .detail {
+	font-size: 1.4em;
+	font-weight: 300;
+	text-align: left;
 	width: 100%;
-	max-width: 900px;
-	margin: auto;
+	max-width: 800px;
+	margin: 50px auto 0;
 }
 
 .briefcase-page .detail .row {
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .briefcase-page .detail i {
 	font-size: 50px;
 }
 
-.briefcase-page .detail p {
-	font-size: 1.3em;
-	font-weight: 200;
-	text-align: left;
+.briefcase-page .detail ul {
+	list-style: disc;
+	margin-bottom: 5px;
 }
 
 .briefcase-page .detail p.topic {
 	font-weight: 500;
 	text-decoration: underline;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .travel-page {
 	color: white;
-	background-color: SteelBlue;
+	background-color: #d68f02;
 }
 
 .travel-page .detail {
@@ -261,12 +331,17 @@ ul {
 }
 
 .travel-page .detail .detail-list {
-	padding: 20px 20px 20px 0;
+	padding: 0 0 20px 0;
 }
 
 .contact-page {
 	color: white;
-	background-color: #5f5f5f;
+	background-color: #931010;
+}
+
+.contact-page img {
+	height: 150px;
+	margin-bottom: 30px;
 }
 
 .contact-page .detail {
@@ -322,12 +397,6 @@ ul {
 
 	.briefcase-page .detail {
 		width: 80%;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	.travel-page .detail .detail-list {
-		padding: 0 0 20px 0;
 	}
 }
 

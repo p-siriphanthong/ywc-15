@@ -57,7 +57,7 @@
 			<h1 class="topic">การบ้านสำหรับผู้มีสิทธิ์เข้าสัมภาษณ์</h1>
 			<div class="row equal-height">
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 homework">
-					<div class="homework-content">
+					<div class="homework-box homework-content">
 						<h2>สาขาคอนเทนท์</h2>
 						<img src="./images/content.png?ver=<?php echo filemtime('images/content.png'); ?>">
 						<div class="detail">
@@ -71,7 +71,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 homework">
-					<div class="homework-content">
+					<div class="homework-box homework-design">
 						<h2>สาขาดีไซน์</h2>
 						<img src="./images/design.png?ver=<?php echo filemtime('images/design.png'); ?>">
 						<div class="detail">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 homework">
-					<div class="homework-content">
+					<div class="homework-box homework-marketing">
 						<h2>สาขามาร์เก็ตติ้ง</h2>
 						<img src="./images/marketing.png?ver=<?php echo filemtime('images/marketing.png'); ?>">
 						<div class="detail">
@@ -91,7 +91,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 homework">
-					<div class="homework-content">
+					<div class="homework-box homework-programming">
 						<h2>สาขาโปรแกรมมิ่ง</h2>
 						<img src="./images/programming.png?ver=<?php echo filemtime('images/programming.png'); ?>">
 						<div class="detail">
@@ -122,7 +122,11 @@
 					</div>
 					<div class="col-xs-10">
 						<p class="topic">บัตรประชาชน & บัตรนักศึกษา</p>
-						<p>บัตรประชาชนสำหรับการแลกบัตรเข้าอาคาร ซี.พี.ทาวเวอร์ 1 (สีลม) และ บัตรนักศึกษาสำหรับการลงทะเบียนสัมภาษณ์ กรุณาแต่งกายด้วยชุดนักศึกษา</p>
+						<ul>
+							<li>บัตรประชาชนสำหรับการแลกบัตรเข้าอาคาร ซี.พี.ทาวเวอร์ 1 (สีลม)</li>
+							<li>บัตรนักศึกษาสำหรับการลงทะเบียนสัมภาษณ์</li>
+						</ul>
+						<p>** กรุณาแต่งกายด้วยชุดนักศึกษา</p>
 					</div>
 				</div>
 				<div class="row">
@@ -131,7 +135,10 @@
 					</div>
 					<div class="col-xs-10">
 						<p class="topic">การบ้านและสิ่งที่กรรมการสาขากำหนดไว้</p>
-						<p>กรุณาอ่านรายละเอียดการบ้านและสิ่งที่กรรมการให้เตรียมมาให้ครบถ้วน หากสาขาใดต้องใช้โน้ตบุ๊ค ควรชาร์ตแบตเตอรี่และเตรียมอินเทอร์เน็ตส่วนตัวมาให้พร้อม เนื่องจากสถานที่ไม่มีบริการอินเทอร์เน็ตให้ใช้</p>
+						<ul>
+							<li>กรุณาอ่านรายละเอียดการบ้านและสิ่งที่กรรมการให้เตรียมมาให้ครบถ้วน</li>
+							<li>หากสาขาใดต้องใช้โน้ตบุ๊ค ควรชาร์ตแบตเตอรี่และเตรียมอินเทอร์เน็ตส่วนตัวมาให้พร้อม เนื่องจากสถานที่ไม่มีบริการอินเทอร์เน็ตให้ใช้</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row">
@@ -140,7 +147,10 @@
 					</div>
 					<div class="col-xs-10">
 						<p class="topic">Portfolio</p>
-						<p>สามารถนำมาประกอบการสัมภาษณ์ได้ สำหรับน้อง ๆ สาขาดีไซน์จะต้องนำ Portfolio มาด้วยทุกคน</p>
+						<ul>
+							<li>สามารถนำมาประกอบการสัมภาษณ์ได้</li>
+						</ul>
+						<p>** สำหรับน้องๆ สาขาดีไซน์จะต้องนำ Portfolio มาด้วยทุกคน</li>
 					</div>
 				</div>
 			</div>
@@ -151,17 +161,15 @@
 	<div id="travel" class="page travel-page">
 		<div class="page-content">
 			<h1 class="topic">การเดินทางมาสัมภาษณ์</h1>
-			<div class="row detail">
-				<div class="col-md-6 detail-list">
+			<div class="detail">
+				<div class="detail-list">
 					<ol>
 						<li>ด้วยรถไฟฟ้า BTS สามารถลงสถานีศาลาแดง ณ ทางออกที่ 2</li>
 						<li>ด้วยรถไฟฟ้า MRT สามารถลงสถานีสีลม ณ ทางออกที่ 2 โดยเดินเรียบทางเท้าไปตามถนนสีลม</li>
 						<li>ด้วยรถประจำทาง สามารถขึ้นใช้บริการสาย 15, 77, 155, 504, 177, 76</li>
 					</ol>
 				</div>
-				<div class="col-md-6">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.5802705497262!2d100.53217364177942!3d13.727328977459369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f294839a5eb%3A0xa94b25193faedff1!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4i-C4tS7guJ7guLUu4LmB4Lil4LiZ4LiU4LmMIOC4iOC4s-C4geC4seC4lCAo4Lih4Lir4Liy4LiK4LiZKSDguK3guLLguITguLLguKMg4LiL4Li1LuC4nuC4tS4g4LiX4Liy4Lin4LmA4Lin4Lit4Lij4LmMIDEgKOC4quC4teC4peC4oSk!5e0!3m2!1sth!2sth!4v1511568687281" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.5802705497262!2d100.53217364177942!3d13.727328977459369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f294839a5eb%3A0xa94b25193faedff1!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4i-C4tS7guJ7guLUu4LmB4Lil4LiZ4LiU4LmMIOC4iOC4s-C4geC4seC4lCAo4Lih4Lir4Liy4LiK4LiZKSDguK3guLLguITguLLguKMg4LiL4Li1LuC4nuC4tS4g4LiX4Liy4Lin4LmA4Lin4Lit4Lij4LmMIDEgKOC4quC4teC4peC4oSk!5e0!3m2!1sth!2sth!4v1511568687281" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -169,6 +177,7 @@
 	<!-- contact page -->
 	<div id="contact" class="page contact-page">
 		<div class="page-content">
+			<img src="./images/icon-contact.png?ver=<?php echo filemtime('images/icon-contact.png'); ?>">
 			<h1 class="topic">สอบถามเพิ่มเติมติดต่อ</h1>
 			<div class="detail">
 				<p><span>พี่เบ๊บ</span>&emsp; <span class="tel">064-174-7080</span></p>

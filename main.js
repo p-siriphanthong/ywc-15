@@ -36,7 +36,7 @@ function load_data_finished(msg) {
 }
 
 function insert_tab(tab) {
-	$('#nav-tabs').append('<li role="presentation"><a id="interviewee-tab-' + tab + '" href="#' + tab + '" aria-controls="' + tab + '" role="tab" data-toggle="tab">' + tab + '</a></li>');
+	$('#nav-tabs').append('<li role="presentation"><a id="interviewee-tab-' + tab + '" href="#' + tab + '" class="btn-' + tab + '" aria-controls="' + tab + '" role="tab" data-toggle="tab">' + tab + '</a></li>');
 }
 
 function insert_data(major, data) {
