@@ -9,6 +9,10 @@ ul {
 	list-style: none;
 }
 
+#loader-wrapper {
+	z-index: 2000;
+}
+
 .row.equal-height {
     display: flex;
     flex-wrap: wrap;

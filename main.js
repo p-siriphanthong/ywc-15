@@ -31,6 +31,8 @@ function load_data_finished(msg) {
 		sort: true,
 		maxItems: list.length
 	});
+
+	$('body').toggleClass('loaded');
 }
 
 function insert_tab(tab) {

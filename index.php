@@ -8,10 +8,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./libraries/awesomplete.css?ver=<?php echo filemtime('libraries/awesomplete.css'); ?>">
+	<link rel="stylesheet" href="./preloader.css?ver=<?php echo filemtime('preloader.css'); ?>">
 	<link rel="stylesheet" href="./index.css?ver=<?php echo filemtime('index.css'); ?>">
 </head>
 <body data-spy="scroll" data-target=".menu">
 
+	<!-- preloader -->
+	<div id="loader-wrapper">
+	    <div id="loader"></div>
+	    <div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	</div>
+
+	<!-- menu -->
 	<nav class="menu navbar-fixed-top">
   		<ul class="nav">
     		<li><a id="menu-search" href="#search"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></a></li>
