@@ -217,7 +217,8 @@ ul {
 }
 
 .briefcase-page .detail {
-	width: 60%;
+	width: 100%;
+	max-width: 900px;
 	margin: auto;
 }
 
@@ -230,7 +231,7 @@ ul {
 }
 
 .briefcase-page .detail p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 200;
 	text-align: left;
 }
