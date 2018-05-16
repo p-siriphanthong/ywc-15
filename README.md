@@ -1,4 +1,4 @@
 # YWC#15
-Homework for interviewing Young Webmaster Camp 15 (YWC#15) <br />
-PG50 - นางสาวปัณชญา ศิริพานทอง <br />
+Homework for Interviewing Young Webmaster Camp 15 (YWC#15) <br />
+PG50 - Punchaya Siriphanthong <br />
 Try it online at https://ywc-15.herokuapp.com/
